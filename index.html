@@ -8,8 +8,6 @@
   <meta name="theme-color" content="#000000">
   <meta name="msapplication-navbutton-color" content="#000000">
   <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
-  <meta name="google-site-verification" content="soYPEy6rXOLUyR7_wAREF2Yflu21fWbJPZt59C4qXz8" />
-  <meta name="keywords" content="FullerStory, A Fuller Story of Franklin, Franklin, Civil War, monument, USCT, United States Colored Troops, Chip, Battlefield, 1867 Riot, Jim Crow, Reconstruction, Slavery">
   <meta property="og:image" content="https://cdn.rawgit.com/fullerstory/fullerstory.github.io/cebc9013/fullerStoryStatue.jpg">
   <style name="AppTheme" parent="AppBaseTheme">
   <style>
@@ -20,6 +18,7 @@
     @media screen and (max-width: 379px){
       #background{
         position: fixed;
+        top: 0vw;
         left: 0px;
         width: 100%;
         height: 100%;
@@ -28,11 +27,11 @@
       .heading{
         position: fixed;
         width: 100%;
-        height: 20vw;
+        height: 17vw;
         font-family: 'Cinzel', serif;
         top: 0px;
         left: 0px;
-        padding-bottom: 4%;
+        padding-bottom: 6%;
         text-align: center;
         line-height: 1;
         background-color: black;
@@ -63,62 +62,13 @@
         padding-top: 0%;
         font-size: 3vw;
       }
-      #fullerStoryPic{
-        position: relative;
-        width: 80%;
-        margin-top: 25%;
-        margin-left: 10%;
-        z-index: 4;
-      }
-      #mainText{
-        position: relative;
-        text-align: center;
-        top: 0vw;
-        font-size: 4vw;
-        font-weight: bold;
-        margin-left: 5%;
-        margin-right: 5%;
-        line-height: 1;
-        z-index: 3;
-      }
-      #listItems{
-        position: relative;
-        margin-top: 3vw;
-        font-size: 4vw;
-        font-weight: bold;
-        margin-left: 9%;
-        margin-right: 5%;
-        z-index: 3;
-        margin-bottom: 5%;
-      }
-      #mainText1{
-        position: relative;
-        text-align: center;
-        top: 0vw;
-        font-size: 4vw;
-        font-weight: bold;
-        margin-left: 5%;
-        margin-right: 5%;
-        line-height: 1;
-        z-index: 3;
-      }
-      #listItems1{
-        position: relative;
-        margin-top: 3vw;
-        font-size: 4vw;
-        font-weight: bold;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        z-index: 3;
-        margin-bottom: 5%;
-      }
       #menu{
         position: relative;
         display: inline-block;
         top: -18.5vw;
         background-color: black;
-        font-size: 2.4vw;
-        margin-bottom: 1.5%;
+        font-size: 2.5vw;
+        margin-bottom: 0vw;
         padding-left: 3%;
         padding-right: 3%;
         text-decoration: none;
@@ -127,11 +77,41 @@
       #menu:hover{
         color: #E0A10E;
       }
+      #mainTitle{
+        position: relative;
+        margin-top: 28%;
+        margin-bottom: -5vw;
+        font-size: 8vw;
+        font-weight: bolder;
+        text-align: center;
+        z-index: 4;
+      }
+      #newsImage{
+        position: relative;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 90%;
+        z-index: 4;
+      }
+      #newsInfo{
+        position: relative;
+        display: block;
+        margin-top: 1vw;
+        font-size: 4vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        z-index: 4;
+      }
     }
     @media screen and (min-width: 380px) and (max-width: 1100px){
       #background{
         position: fixed;
         left: 0px;
+        top: 0px;
         width: 100%;
         height: 100%;
         z-index: 1;
@@ -139,7 +119,7 @@
       .heading{
         position: fixed;
         width: 100%;
-        height: 19vw;
+        height: 18vw;
         font-family: 'Cinzel', serif;
         top: 0px;
         left: 0px;
@@ -174,69 +154,49 @@
         padding-top: 0%;
         font-size: 3vw;
       }
-      #fullerStoryPic{
-        position: relative;
-        width: 40%;
-        margin-top: 19.5%;
-        margin-left: 30%;
-        z-index: 4;
-      }
-      #mainText{
-        position: relative;
-        text-align: center;
-        top: 0vw;
-        font-size: 3vw;
-        font-weight: bold;
-        margin-left: 5%;
-        margin-right: 5%;
-        line-height: 1;
-        z-index: 3;
-      }
-      #listItems{
-        position: relative;
-        margin-top: 3vw;
-        font-size: 3vw;
-        font-weight: bold;
-        margin-left: 9%;
-        margin-right: 5%;
-        z-index: 3;
-        margin-bottom: 5%;
-      }
-      #mainText1{
-        position: relative;
-        text-align: center;
-        top: 0vw;
-        font-size: 3vw;
-        font-weight: bold;
-        margin-left: 5%;
-        margin-right: 5%;
-        line-height: 1;
-        z-index: 3;
-      }
-      #listItems1{
-        position: relative;
-        margin-top: 3vw;
-        font-size: 2.6vw;
-        font-weight: bold;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        z-index: 3;
-        margin-bottom: 5%;
-      }
       #menu{
         position: relative;
         display: inline-block;
         top: -18.5vw;
         background-color: black;
         font-size: 2vw;
-        margin-bottom: 1.5%;
-        padding-left: 3%;
-        padding-right: 3%;
+        margin-bottom: 1vw;
+        padding-left: 2%;
+        padding-right: 2%;
         text-decoration: none;
         color: white;
       }
       #menu:hover{
         color: #E0A10E;
+      }
+      #mainTitle{
+        position: relative;
+        margin-top: 26%;
+        margin-bottom: -5%;
+        font-size: 5vw;
+        font-weight: bolder;
+        text-align: center;
+        z-index: 4;
+      }
+      #newsImage{
+        position: relative;
+        margin-top: 7%;
+        margin-left: 10%;
+        width: 80%;
+        z-index: 4;
+      }
+      #newsInfo{
+        position: relative;
+        display: block;
+        margin-top: 1vw;
+        font-size: 3vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        z-index: 4;
       }
     }
     @media screen and (min-width: 1101px){
@@ -285,62 +245,6 @@
         padding-top: 0%;
         font-size: 2vw;
       }
-      #fullerStoryPic{
-        position: fixed;
-        width: 34%;
-        margin-top: 11%;
-        margin-left: 64%;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-        z-index: 4;
-      }
-      #mainText{
-        position: absolute;
-        text-align: center;
-        top: 11vw;
-        width: 60%;
-        margin-left: 2.5%;
-        font-size: 2vw;
-        font-weight: bold;
-        line-height: 1;
-        z-index: 3;
-      }
-      #mainText1{
-        position: relative;
-        text-align: center;
-        top: 38vw;
-        width: 60%;
-        margin-left: 2.5%;
-        margin-bottom: 2%;
-        font-size: 2vw;
-        font-weight: bold;
-        line-height: 1;
-        z-index: 3;
-      }
-      #listItems{
-        position: relative;
-        top: 38vw;
-        width: 60%;
-        margin-left: 4%;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        font-size: 2vw;
-        font-weight: bold;
-        line-height: 1;
-        z-index: 3;
-      }
-      #listItems1{
-        position: relative;
-        top: 38vw;
-        width: 60%;
-        margin-left: 4%;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        font-size: 1.65vw;
-        font-weight: bold;
-        line-height: 1;
-        z-index: 3;
-      }
       #menu{
         position: relative;
         display: inline-block;
@@ -356,6 +260,35 @@
       #menu:hover{
         color: #E0A10E;
       }
+      #mainTitle{
+        position: relative;
+        margin-top: 12%;
+        margin-bottom: -5%;
+        font-size: 4vw;
+        font-weight: bolder;
+        text-align: center;
+        z-index: 4;
+      }
+      #newsImage{
+        position: relative;
+        margin-top: 7%;
+        margin-left: 20%;
+        width: 60%;
+        z-index: 4;
+      }
+      #newsInfo{
+        position: relative;
+        display: block;
+        margin-top: 1vw;
+        font-size: 2vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        z-index: 4;
+      }
     }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
@@ -369,25 +302,42 @@
     <p id="bigHeading">Fuller Story</p>
     <p id="rightHeading">&nbsp Of Franklin</p>
     <p id="tagHeading">Learning From Our Past To Reconcile Our Future</p>
-    <a href="https://www.fullerstory.org/USCT" id="menu"><br>United States Colored Troops</a>
+    <a href="https://www.fullerstory.org/" id="menu"><br>Home</a>
     <a href="https://www.fullerstory.org/Courthouse-MarketHouse" id="menu">Courthouse/Market House</a>
     <a href="https://www.fullerstory.org/1867Riot" id="menu">1867 Riot</a>
     <a href="https://www.fullerstory.org/Reconstruction-JimCrow" id="menu">Reconstruction & Jim Crow</a>
     <a href="https://www.fullerstory.org/Statue" id="menu">USCT Statue</a>
+    <a href="https://www.fullerstory.org/Media" id="menu">Media</a>
+    <a href="https://www.fullerstory.org/Donate" id="menu">Donate</a>
+
 </div>
 
-  <img src="fullerStoryStatue.jpg" id="fullerStoryPic">
 
-  <p id="mainText">After the tragic events in Charlottesville, VA last August, conversations started happening in Franklin about how our city would (or would not) react if something similar happened here. In a lot of ways, our city is like Charlottesville. These discussions led to the thought that it would be better to be “actionary” instead of “reactionary.” The result of these conversations led to the idea that instead of taking down historical markers, what if we added to them and told a     “fuller story.” Further, it was believed that the CHURCH in Franklin should lead this effort.<br><br>Over the course of this past year we have initiated further dialogue between<br></p>
-  <p id="listItems">…pastors and church leaders.<br>…the historical community in Franklin and Williamson County.<br>…the city administrator, city mayor and county mayor.<br>…the downtown business community.<br>…and a host of individuals.</p>
+  <p id="mainTitle">News And Media<br></p>
 
-  <p id="mainText1"> Timeline </p>
-  <p id="mainText1"><br>Phase 1 (four historical markers around the downtown square) – A dedication of these markers on Monday, January 14, 2019 during the CHURCHES’ annual Martin Luther King Day Celebration. <br><br>The four markers are:</p>
-  <p id="listItems1">•	United States Colored Troops<br>•	1867 Downtown Riot<br>•	Courthouse and Market House<br>•	Reconstruction and Jim Crow</p>
-  <p id="mainText1"><br>Phase 2 – Erect a statue of a United States Colored Troop soldier at a yet to be determined location inside the city limits of Franklin. A dedication of this statue on Monday, January 13, 2020 during the CHURCHES’ annual Martin Luther King Day Celebration. </p>
-  <p id="listItems1">• Present “Fuller Story” at BOMA Workshop on Tuesday, August 14, 2018. <br>•	Present “Fuller Story” to County Commissioners on Monday, September 10, 2018.<br>• Announce fundraiser for the USCT statue September / October 2018.<br>• A fall “revival” with the CHURCHES in Franklin / Williamson County.</p>
-  <p id="mainText1"> The Ask </p>
-  <p id="mainText1">We are asking you, the city leaders, to lend your support behind our efforts and to help us with the locations of the markers and the statue. We are not asking the city for any money. All funds will be raised through private donations.</p>
+  <a href="https://www.stardem.com/news/national/black-pastors-confederate-descendants-share-civil-war-history-in-tennessee/article_20dcac5f-e1d8-5ece-b8c2-18295342ce33.html"><img src="theStar.jpg" id="newsImage"></a>
+  <a href="https://www.stardem.com/news/national/black-pastors-confederate-descendants-share-civil-war-history-in-tennessee/article_20dcac5f-e1d8-5ece-b8c2-18295342ce33.html" id="newsInfo">August 24, 2018 - The Star Democrat <br> "Black pastors, Confederate descendants share Civil War history in Tennessee town"</a>
+
+  <a href="https://www.wkrn.com/news/group-of-franklin-pastors-hope-to-add-markers-to-confederate-monument_20180822120323/1388036676"><img src="wkrnVideo.jpg" id="newsImage"></a>
+  <a href="https://www.wkrn.com/news/group-of-franklin-pastors-hope-to-add-markers-to-confederate-monument_20180822120323/1388036676" id="newsInfo">August 22, 2018 - WKRN <br> "Group of Franklin pastors hope to add markers to Confederate monument"</a>
+
+  <a href="https://civilwartalk.com/threads/pastors-propose-historic-markers-detailing-slave-auctions-and-keeping-confederate-statue-too.149047/"><img src="civilWarTalks.jpg" id="newsImage"></a>
+  <a href="https://civilwartalk.com/threads/pastors-propose-historic-markers-detailing-slave-auctions-and-keeping-confederate-statue-too.149047/" id="newsInfo">August 16, 2018 - Civil War Talk <br> "Pastors Propose Historic Markers Detailing Slave Auctions and Keeping Confederate Statue Too"</a>
+
+  <a href="https://www.wsmv.com/news/pastors-push-for-diversity-in-franklin-historical-markers/article_5c3915f8-a0e0-11e8-8d2e-9b1f36f9ed69.html"><img src="wsmv.jpg" id="newsImage"></a>
+  <a href="https://www.wsmv.com/news/pastors-push-for-diversity-in-franklin-historical-markers/article_5c3915f8-a0e0-11e8-8d2e-9b1f36f9ed69.html" id="newsInfo">August 15, 2018 - WSMV <br> "Pastors push for diversity in Franklin historical markers"</a>
+
+  <a href="https://franklinhomepage.com/franklin-pastors-propose-historic-markers-detailing-slave-auctions-us-colored-troop-efforts/"><img src="franklinHomepage.jpg" id="newsImage"></a>
+  <a href="https://franklinhomepage.com/franklin-pastors-propose-historic-markers-detailing-slave-auctions-us-colored-troop-efforts/" id="newsInfo">August 14, 2018 - Franklin Homepage <br> "Franklin pastors propose historic markers detailing slave auctions, African-American Civil War efforts"</a>
+
+  <a href="https://www.tennessean.com/story/news/local/williamson/2018/08/14/franklin-confederate-monument-williamson-county-faith-leaders/993144002/"><img src="tennessean.jpg" id="newsImage"></a>
+  <a href="https://www.tennessean.com/story/news/local/williamson/2018/08/14/franklin-confederate-monument-williamson-county-faith-leaders/993144002/" id="newsInfo">August 14, 2018 - The Tennessean <br> "Franklin faith leaders want markers next to Confederate monument"</a>
+
+  <a href="http://www.williamsonherald.com/news/article_0a0756b6-a016-11e8-9504-8fe8eb1b677d.html"><img src="williamsonHerald.jpg" id="newsImage"></a>
+  <a href="http://www.williamsonherald.com/news/article_0a0756b6-a016-11e8-9504-8fe8eb1b677d.html" id="newsInfo">August 14, 2018 - Williamson Herald <br> "Three preachers and a historian tell 'fuller story' by proposing Civil War monument, markers"</a>
+
+  <a href="https://brentwoodhomepage.com/franklin-pastors-propose-historic-markers-detailing-slave-auctions-us-colored-troop-efforts/"><img src="brentwoodHomepage.jpg" id="newsImage"></a>
+  <a href="https://brentwoodhomepage.com/franklin-pastors-propose-historic-markers-detailing-slave-auctions-us-colored-troop-efforts/" id="newsInfo">August 14, 2018 - Brentwood Homepage <br> "Franklin pastors propose historic markers detailing slave auctions, African-American Civil War efforts"</a>
 
 </body>
 </html>
